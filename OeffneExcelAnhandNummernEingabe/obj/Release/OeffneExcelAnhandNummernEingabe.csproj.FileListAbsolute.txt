@@ -17,3 +17,4 @@ C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj
 C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.csproj.CoreCompileInputs.cache
 C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.exe
 C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.pdb
+C:\Users\tbr\source\repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.csproj.AssemblyReference.cache

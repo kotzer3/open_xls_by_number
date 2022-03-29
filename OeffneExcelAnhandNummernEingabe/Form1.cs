@@ -75,7 +75,7 @@ namespace OeffneExcelAnhandNummernEingabe
       //datei vorhanden?
       if (File.Exists(file))
       {
-
+        WriteLog($"OpenExcel({file})");
 
         this.label1.Text = "";
 
@@ -86,11 +86,13 @@ namespace OeffneExcelAnhandNummernEingabe
       {
         this.label1.Text = 
         $"{text}.xlsx konnte nicht gefunden werden!";
+        WriteLog($"OpenExcel: {text}.xlsx konnte nicht gefunden werden!");
+
       }
       //falls ja, oeffnen
 
       //text selektieren, focus setzen
-      this.textBox1.SelectAll();
+      this.textBox1.Text = "";
       this.textBox1.Focus();
     }
 
@@ -131,6 +133,12 @@ namespace OeffneExcelAnhandNummernEingabe
       {
         this.textBox1.SelectAll();
       }
+    }
+
+    private void WriteLog(string logEntry)
+    {
+      var finalLogEntry = $"{DateTime.Now.ToString()}\t{logEntry}{Environment.NewLine}";
+      File.AppendAllText(Path.Combine(this.excelDir, "8999.txt"), finalLogEntry);
     }
   }
 }
