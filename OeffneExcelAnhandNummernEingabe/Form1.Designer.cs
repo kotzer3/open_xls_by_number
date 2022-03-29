@@ -40,7 +40,9 @@
       this.textBox1.Name = "textBox1";
       this.textBox1.Size = new System.Drawing.Size(139, 33);
       this.textBox1.TabIndex = 0;
+      this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
       this.textBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
+      this.textBox1.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
       // 
       // label1
       // 
@@ -71,10 +73,14 @@
       this.Controls.Add(this.label1);
       this.Controls.Add(this.textBox1);
       this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
       this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Margin = new System.Windows.Forms.Padding(6);
+      this.MaximizeBox = false;
       this.Name = "Form1";
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "OeffneExcelAnhandNummer";
+      this.TopMost = true;
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
       this.ResumeLayout(false);
       this.PerformLayout();

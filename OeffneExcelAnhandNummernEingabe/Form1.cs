@@ -25,7 +25,7 @@ namespace OeffneExcelAnhandNummernEingabe
         Environment.Exit(1);
       }
 
-      //fenstewr immer im vordergrund:
+      //fenster immer im vordergrund:
       this.TopMost = true;
     }
 
@@ -76,10 +76,6 @@ namespace OeffneExcelAnhandNummernEingabe
       if (File.Exists(file))
       {
 
-        this.textBox1.SelectionStart = 0;
-        this.textBox1.SelectionLength = this.textBox1.TextLength;
-
-        this.textBox1.Focus();
 
         this.label1.Text = "";
 
@@ -94,6 +90,8 @@ namespace OeffneExcelAnhandNummernEingabe
       //falls ja, oeffnen
 
       //text selektieren, focus setzen
+      this.textBox1.SelectAll();
+      this.textBox1.Focus();
     }
 
     private void button1_Click(object sender, EventArgs e)
@@ -116,6 +114,22 @@ namespace OeffneExcelAnhandNummernEingabe
         var keyValueConfigurationElement = config.AppSettings.Settings["ExcelDir"];
         if (keyValueConfigurationElement != null)
           keyValueConfigurationElement.Value = this.excelDir;
+      }
+    }
+
+    private void textBox1_MouseEnter(object sender, EventArgs e)
+    {
+      if (this.textBox1.Text.Length >= 0)
+      {
+        this.textBox1.SelectAll();
+      }
+    }
+
+    private void textBox1_Enter(object sender, EventArgs e)
+    {
+      if(this.textBox1.Text.Length >= 0)
+      {
+        this.textBox1.SelectAll();
       }
     }
   }

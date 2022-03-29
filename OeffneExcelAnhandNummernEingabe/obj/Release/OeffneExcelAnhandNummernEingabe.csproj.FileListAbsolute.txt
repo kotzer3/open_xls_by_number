@@ -7,3 +7,13 @@ D:\project.peer\open_xls_by_number\OeffneExcelAnhandNummernEingabe\OeffneExcelAn
 D:\project.peer\open_xls_by_number\OeffneExcelAnhandNummernEingabe\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.csproj.GenerateResource.Cache
 D:\project.peer\open_xls_by_number\OeffneExcelAnhandNummernEingabe\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.exe
 D:\project.peer\open_xls_by_number\OeffneExcelAnhandNummernEingabe\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.pdb
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\bin\Release\App.config
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\bin\Release\OeffneExcelAnhandNummernEingabe.exe.config
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\bin\Release\OeffneExcelAnhandNummernEingabe.exe
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\bin\Release\OeffneExcelAnhandNummernEingabe.pdb
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.Form1.resources
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.Properties.Resources.resources
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.csproj.GenerateResource.cache
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.csproj.CoreCompileInputs.cache
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.exe
+C:\Users\tbr\Source\Repos\open_xls_by_number\OeffneExcelAnhandNummernEingabe\obj\Release\OeffneExcelAnhandNummernEingabe.pdb
