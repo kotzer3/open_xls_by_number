@@ -81,7 +81,9 @@
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "OeffneExcelAnhandNummer";
       this.TopMost = true;
+      this.Activated += new System.EventHandler(this.Form1_Activated);
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+      this.Enter += new System.EventHandler(this.Form1_Enter);
       this.ResumeLayout(false);
       this.PerformLayout();
 
